@@ -1,2 +1,4 @@
 def divide_numbers(a, b):
-    return a / b  # Potential division by zero error
+    if b == 0:
+        return "Error: Division by zero is not allowed"
+    return a / b
